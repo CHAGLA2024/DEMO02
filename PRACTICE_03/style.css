@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#PAGE1{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#PAGE2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(8, 127, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+#PAGE3{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(64, 33, 238, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#BOX{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 2vw;
+    font-weight: 200;
+    padding: 40px;
+}
+h1{
+    font-size: 50px;
+    background-color: crimson;
+    padding: 20px;
+    border-radius: 40px;
+    position: relative;
+    /* left: 05%; */
+}
+h2{
+    font-size: 50px;
+    background-color: rgb(241, 226, 15);
+    padding: 20px;
+    border-radius: 40px;
+    position: relative;
+    /* left: 05%; */
+}
+#PAGE3 #BOX{
+border-radius: 20px;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #333; */
+    padding:  20px 50px ;
+    color: white;
+    background-color: black;
+   /* color: #333; */
+}
+#part2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+     
+}
+#PAGE1 h3{
+    transform: translate(-50%, -50% );
+    position: absolute;
+    left: 50%;
+    color:darkblue;
+}
